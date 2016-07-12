@@ -57,6 +57,7 @@ ENV		PATH /root/.nvm/versions/io.js/v3.3.1/bin/:$PATH
 RUN		apt-get -y install python
 RUN		apt-get -y install g++
 RUN		apt-get -y install curl
+RUN   apt-get -y install screen
 #ENV		PATH /root/.gem/ruby/1.9.1/bin:$PATH
 #RUN		git clone ssh://git@git.sankuai.com/fe/fe-paidui.git
 #RUN		cd fe-paidui; npm install && bundle install
